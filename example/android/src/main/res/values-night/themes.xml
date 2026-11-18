@@ -3,5 +3,7 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
 <resources>
-    <style name="Theme.Miuix" parent="android:Theme.Material.NoActionBar" />
+    <style name="Theme.Miuix" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
 </resources>
